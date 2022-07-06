@@ -15,8 +15,12 @@ unclutter -idle 3 &
 # Xresources for urxvt
 #xrdb ~/.Xresources
 
+# Notifications
+dunst &
+
 # Autostart progs
-#discord &
+discord &
+telegram-desktop &
 
 # Start Xorg server
 exec dwm
