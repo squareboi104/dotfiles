@@ -13,7 +13,7 @@ xwallpaper --focus ~/.wallpapers/nightcity_neon.png
 unclutter -idle 3 &
 
 # Xresources for urxvt
-#xrdb ~/.Xresources
+xrdb ~/.Xresources
 
 # Notifications
 dunst &
@@ -21,6 +21,9 @@ dunst &
 # Autostart progs
 discord &
 telegram-desktop &
+
+# Transparency/Compositor
+#xcompmgr &
 
 # Start Xorg server
 exec dwm

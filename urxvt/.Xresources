@@ -42,10 +42,10 @@
 *.color15:      #ffffff
 
 !! URxvt Appearance
-URxvt.font: xft:mononoki Nerd Font:style=Regular:size=11.5
-URxvt.boldFont: xft:mononoki Nerd Font:style=Bold:size=11.5
-URxvt.italicFont: xft:mononoki Nerd Font:style=Italic:size=11.5
-URxvt.boldItalicFont: xft:mononoki Nerd Font:style=Bold Italic:size=11.5
+URxvt.font: xft:inconsolata Nerd Font:style=Regular:size=12
+URxvt.boldFont: xft:inconsolata Nerd Font:style=Bold:size=12
+URxvt.italicFont: xft:inconsolata Nerd Font:style=Italic:size=12
+URxvt.boldItalicFont: xft:inconsolata Nerd Font:style=Bold Italic:size=12
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -58,6 +58,8 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 24
 URxvt.iso14755: false
+URxvt.transparent: True
+URxvt.shading: 30
 
 !! URxvt Functions
 URxvt.perl-ext-common: resize-font,selection-to-clipboard,pasta,default,matcher
