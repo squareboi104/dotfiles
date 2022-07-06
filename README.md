@@ -7,7 +7,7 @@ To setup the dotfiles [GNU Stow](https://www.gnu.org/software/stow) is used.
 ```bash
 # Get my dotfiles.
 cd ~
-git clone --recurse-submodules https://github.com/lemonguy-104/dotfiles.git ~/.dotfiles
+git clone --recurse-submodules https://gitlab.com/squareboi104/dotfiles.git ~/.dotfiles
 cd .dotfiles
 
 # Symlink all of them.
@@ -34,7 +34,7 @@ stow urxvt
 
 ### Disclamer:
 
-Some things may look weird, like urxvt or alacritty, because they use Mononoki Nerd Font and it needs to be installed to make them look as they should.
+Some things may look weird, like urxvt or alacritty, because they use Mononoki/Inconsolata Nerd Font and it needs to be installed to make them look as they should.
 
 ### Backgrounds' source:
 
