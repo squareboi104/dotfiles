@@ -1,0 +1,80 @@
+! Xrersources
+!
+! Good guide > https://wiki.archlinux.org/index.php/Rxvt-unicode
+! Really good .Xresources > https://github.com/MentalOutlaw/deploygentoo/blob/master/rice/dots/.Xresources
+! Coloschemes > https://terminal.sexy/
+
+!! Colorscheme
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
+
+! red
+*.color1:       #cc342b
+*.color9:       #cc342b
+
+! green
+*.color2:       #198844
+*.color10:      #198844
+
+! yellow
+*.color3:       #fba922
+*.color14:      #fba922
+
+! blue
+*.color4:       #3971ed
+*.color12:      #3971ed
+
+! magenta
+*.color5:       #a36ac7
+*.color13:      #a36ac7
+
+! cyan
+*.color6:       #3971ed
+*.color11:      #3971ed
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
+
+!! URxvt Appearance
+URxvt.font: xft:mononoki Nerd Font:style=Regular:size=11.5
+URxvt.boldFont: xft:mononoki Nerd Font:style=Bold:size=11.5
+URxvt.italicFont: xft:mononoki Nerd Font:style=Italic:size=11.5
+URxvt.boldItalicFont: xft:mononoki Nerd Font:style=Bold Italic:size=11.5
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 6
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+!! URxvt Functions
+URxvt.perl-ext-common: resize-font,selection-to-clipboard,pasta,default,matcher
+!
+! Change fonts on the fly > https://github.com/simmel/urxvt-resize-font (resize-font)
+URxvt.keysym.C-underscore: resize-font:smaller
+URxvt.keysym.C-plus: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:reset
+URxvt.keysym.C-question: resize-font:show
+!
+! Copy and paste > https://github.com/MentalOutlaw/deploygentoo/blob/master/rice/dots/pasta (selection-to-clipboard,pasta)
+! You can also use the mouse by highlighting and then clicking the middle button. More info > https://en.wikipedia.org/wiki/Cut,_copy,_and_paste#Common_keyboard_shortcuts (See 'X Window System')
+URxvt.keysym.Shift-Control-C: perl:keyboard-select:activate
+URxvt.keysym.Shift-Control-V: perl:pasta:paste
+! Comment this if you dont want copy when text is selected
+URxvt.clipboard.autocopy: true
+!
+! Clickeable links (default,matcher)
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
