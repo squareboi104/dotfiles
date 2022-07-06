@@ -17,7 +17,7 @@ bindkey -v
 export PATH=/home/manu/.local/bin:/usr/bin:/usr/local/bin
 export EDITOR=nvim
 export TERM=alacritty
-export BROWSER=librewolf
+#export BROWSER=librewolf
 
 # History
 HISTSIZE=1000
@@ -25,6 +25,7 @@ SAVEHIST=1000
 HISTFILE=~/.zsh_histfile
 
 # PS1
+autoload -U colors && colors
 #PS1="%F{cyan}%~%f %F{green}>%f "
 
 #PS1="%F{red}[%f%F{yellow}%n%f%F{cyan}@%f%F{green}%M%f %F{cyan}%~%f%F{red}]%f%F{cyan}>%f "
@@ -127,3 +128,5 @@ alias noToques="clear && cowsay 'NO TOQUES MI ORDENDOR >:u' && echo"
 #The fuck (https://github.com/nvbn/thefuck)
 #eval $(thefuck --alias)
 
+# Load zsh-syntax-highlighting; should be at last. "sudo pacman -S zsh-syntax-highlighting"
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
