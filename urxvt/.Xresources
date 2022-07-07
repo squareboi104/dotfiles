@@ -30,8 +30,10 @@
 *.color14:      #fff85a
 
 ! blue
-*.color4:       #3971ed
-*.color12:      #3971ed
+!*.color4:       #3971ed
+!*.color12:      #3971ed
+*.color4:       #3adbf7
+*.color12:      #3adbf7
 
 ! magenta
 !*.color5:       #a36ac7
