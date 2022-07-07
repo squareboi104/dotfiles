@@ -30,12 +30,17 @@
 *.color12:      #3971ed
 
 ! magenta
-*.color5:       #a36ac7
-*.color13:      #a36ac7
+!*.color5:       #a36ac7
+!*.color13:      #a36ac7
+*.color5:       #fb0c84
+*.color13:      #fboc84
 
 ! cyan
-*.color6:       #3971ed
-*.color11:      #3971ed
+!*.color6:       #3971ed
+!*.color11:      #3971ed
+
+*.color6:       #3adbf7
+*.color11:      #3adbf7
 
 ! white
 *.color7:       #c5c8c6

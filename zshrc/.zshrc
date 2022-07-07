@@ -42,7 +42,7 @@ autoload -U colors && colors
 
 #PS1="%F{red}%~%f %F{cyan}|%f "
 
-PS1="%F{red}%~%f %F{cyan}>%f "
+PS1="%F{magenta}%~%f %F{cyan}>%f "
 
 #PS1='%F{magenta}%n%f@%F{blue}%m%f%F{yellow}%B%~%b%f $ '
 #PS1="[%F{magenta}%n%f @%  %F{blue}%M%f %F{yellow}%~%f]> "
