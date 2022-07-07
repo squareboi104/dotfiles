@@ -25,6 +25,9 @@ telegram-desktop &
 # Transparency/Compositor
 #xcompmgr &
 
+# Rofi
+export LC_ALL="C" &
+
 # Start Xorg server
 exec dwm
 #exec qtile

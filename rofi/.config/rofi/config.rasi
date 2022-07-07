@@ -1,0 +1,21 @@
+configuration {
+
+    // Mode
+    modi: "drun";
+
+    // Font
+    font: "inconsolata nerd font 12";
+    
+    // Icons
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+
+    // Terminal
+    terminal: "urxvt";
+    
+    // Drun settings
+    //drun-match-fields: "name";
+
+    // History
+    disable-history: true;
+}
