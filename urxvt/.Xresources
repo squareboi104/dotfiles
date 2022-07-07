@@ -18,12 +18,16 @@
 *.color9:       #cc342b
 
 ! green
-*.color2:       #198844
-*.color10:      #198844
+!*.color2:       #198844
+!*.color10:      #198844
+*.color2:       #09ffbd
+*.color10:       #09ffbd
 
 ! yellow
-*.color3:       #fba922
-*.color14:      #fba922
+!*.color3:       #fba922
+!*.color14:      #fba922
+*.color3:       #fff85a
+*.color14:      #fff85a
 
 ! blue
 *.color4:       #3971ed
@@ -38,7 +42,6 @@
 ! cyan
 !*.color6:       #3971ed
 !*.color11:      #3971ed
-
 *.color6:       #3adbf7
 *.color11:      #3adbf7
 
