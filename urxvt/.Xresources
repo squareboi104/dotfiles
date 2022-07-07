@@ -27,7 +27,8 @@
 !*.color3:       #fba922
 !*.color14:      #fba922
 *.color3:       #fff85a
-*.color14:      #fff85a
+!*.color14:      #fff85a
+*.color11:      #fff85a
 
 ! blue
 !*.color4:       #3971ed
@@ -45,7 +46,8 @@
 !*.color6:       #3971ed
 !*.color11:      #3971ed
 *.color6:       #3adbf7
-*.color11:      #3adbf7
+!*.color11:      #3adbf7
+*.color14:      #3adbf7
 
 ! white
 *.color7:       #c5c8c6

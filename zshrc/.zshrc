@@ -8,6 +8,9 @@
 # Vi mode
 bindkey -v
 
+#Start pfetch
+pfetch
+
 # Bash insulter
 #if [ -f /etc/bash.command-not-found ]; then # https://gitlab.com/dwt1/bash-insulter
 #    . /etc/bash.command-not-found
