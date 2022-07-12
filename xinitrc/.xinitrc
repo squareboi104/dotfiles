@@ -19,8 +19,8 @@ xrdb ~/.Xresources
 dunst &
 
 # Autostart progs
-discord &
-telegram-desktop &
+#discord &
+#telegram-desktop &
 
 # Transparency/Compositor
 #xcompmgr &
