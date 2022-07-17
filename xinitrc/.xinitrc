@@ -7,7 +7,8 @@ slstatus &
 #nitrogen --restore &
 #variety &
 #$HOME/.wallpapers/zt_meteor/wallpp
-xwallpaper --focus ~/.wallpapers/nightcity_neon.png
+#xwallpaper --focus ~/.wallpapers/nightcity_neon.png
+feh --bg-scale ~/.wallpapers/nightcity_neon.png
 
 # Hide mouse after 3 seconds of inactivity
 unclutter -idle 3 &

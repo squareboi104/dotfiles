@@ -95,6 +95,7 @@ alias play="mpv --fs"
 alias pdf="zathura"
 alias weather="curl wttr.in"
 alias scrcpyr="scrcpy --lock-video-orientation 1"
+alias vlol="sudo sysctl -w abi.vsyscall32=0"
 
 # System
 alias pls="sudo"
