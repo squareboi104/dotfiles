@@ -19,7 +19,7 @@ pfetch
 # Exports
 export PATH=/home/manu/.local/bin:/usr/bin:/usr/local/bin
 export EDITOR=nvim
-export TERM=alacritty
+#export TERM=alacritty
 #export BROWSER=librewolf
 
 # History
