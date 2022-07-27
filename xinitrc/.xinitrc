@@ -8,7 +8,7 @@ slstatus &
 #variety &
 #$HOME/.wallpapers/zt_meteor/wallpp
 #xwallpaper --focus ~/.wallpapers/nightcity_neon.png
-feh --bg-scale ~/.wallpapers/nightcity_neon.png
+feh --bg-scale ~/.wallpapers/samurais/samurai_crow.jpg
 
 # Hide mouse after 3 seconds of inactivity
 unclutter -idle 3 &
@@ -27,7 +27,7 @@ dunst &
 #xcompmgr &
 
 # Rofi
-export LC_ALL="C" &
+#export LC_ALL="C" &
 
 # Start Xorg server
 exec dwm
