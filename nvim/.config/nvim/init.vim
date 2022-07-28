@@ -23,6 +23,7 @@ Plugin 'VundleVim/Vundle.vim' "https://github.com/VundleVim/Vundle.vim
 "Plugin 'vim-airline/vim-airline-themes' "https://github.com/vim-airline/vim-airline-themes
 Plugin 'itchyny/lightline.vim' "https://github.com/itchyny/lightline.vim
 "Plugin 'joshdick/onedark.vim' "https://github.com/joshdick/onedark.vim
+Plugin 'arcticicestudio/nord-vim' "https://github.com/arcticicestudio/nord-vim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -116,8 +117,8 @@ inoremap ] []
 " Background dark/light
 " set background=light
 
-" Colorscheme. Can be -> default, blue, darkblue, delek, desert, elflord, evening, industry, koehler, morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner
-colorscheme pablo
+" Colorscheme. Can be -> default, blue, darkblue, delek, desert, elflord, evening, industry, koehler, morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner. nord
+colorscheme nord
 
 
 " --Remaps--
