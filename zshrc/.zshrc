@@ -115,6 +115,7 @@ alias myip="curl https://ipinfo.io/ip"
 #alias killorphans="ORPHANS=$(pacman -Qdtq) && sudo pacman -Rs $ORPHANS" # p -Sc
 alias orphans="pacman -Qdtq"
 alias old="sudo pacman -Sc"
+alias usbtype='sudo lsusb -v | grep -iE "Bus|^Device Desc|bcdusb"'
 
 # fetch tools
 alias redfetch="neofetch --ascii_colors 7 1 --colors 7 1 1 1 7 7"
