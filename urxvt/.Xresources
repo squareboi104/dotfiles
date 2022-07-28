@@ -4,54 +4,79 @@
 ! Really good .Xresources > https://github.com/MentalOutlaw/deploygentoo/blob/master/rice/dots/.Xresources
 ! Coloschemes > https://terminal.sexy/
 
-!! Colorscheme
-*.foreground:   #c5c8c6
-*.background:   #1d1f21
-*.cursorColor:  #c5c8c6
+!!! Colorscheme NEON NIGHTCITY
+!*.foreground:   #c5c8c6
+!*.background:   #1d1f21
+!*.cursorColor:  #c5c8c6
+!
+!! black
+!*.color0:       #1d1f21
+!*.color8:       #969896
+!
+!! red
+!*.color1:       #cc342b
+!*.color9:       #cc342b
+!
+!! green
+!*.color2:       #09ffbd
+!*.color10:       #09ffbd
+!
+!! yellow
+!*.color3:       #fff85a
+!*.color11:      #fff85a
+!
+!! blue
+!*.color4:       #3adbf7
+!*.color12:      #3adbf7
+!
+!! magenta
+!*.color5:       #fb0c84
+!*.color13:      #fboc84
+!
+!! cyan
+!*.color6:       #3adbf7
+!*.color14:      #3adbf7
+!
+!! white
+!*.color7:       #c5c8c6
+!*.color15:      #ffffff
+
+!! Colorscheme SAMURAI
+*.foreground:   #d3d0c8
+*.background:   #2d2d2d
+*.cursorColor:  #d3d0c8
 
 ! black
-*.color0:       #1d1f21
-*.color8:       #969896
+*.color0:       #2d2d2d
+*.color8:       #747369
 
 ! red
-*.color1:       #cc342b
-*.color9:       #cc342b
+*.color1:       #f2777a
+*.color9:       #f2777a
 
 ! green
-!*.color2:       #198844
-!*.color10:      #198844
-*.color2:       #09ffbd
-*.color10:       #09ffbd
+*.color2:       #99cc99
+*.color10:      #99cc99
 
 ! yellow
-!*.color3:       #fba922
-!*.color14:      #fba922
-*.color3:       #fff85a
-!*.color14:      #fff85a
-*.color11:      #fff85a
+*.color3:       #ffcc66
+*.color11:      #ffcc66
 
 ! blue
-!*.color4:       #3971ed
-!*.color12:      #3971ed
-*.color4:       #3adbf7
-*.color12:      #3adbf7
+*.color4:       #6699cc
+*.color12:      #6699cc
 
 ! magenta
-!*.color5:       #a36ac7
-!*.color13:      #a36ac7
-*.color5:       #fb0c84
-*.color13:      #fboc84
+*.color5:       #cc99cc
+*.color13:      #cc99cc
 
 ! cyan
-!*.color6:       #3971ed
-!*.color11:      #3971ed
-*.color6:       #3adbf7
-!*.color11:      #3adbf7
-*.color14:      #3adbf7
+*.color6:       #66cccc
+*.color14:      #66cccc
 
 ! white
-*.color7:       #c5c8c6
-*.color15:      #ffffff
+*.color7:       #d3d0c8
+*.color15:      #f2f0ec
 
 !! URxvt Appearance
 URxvt.font: xft:inconsolata Nerd Font:style=Regular:size=12
