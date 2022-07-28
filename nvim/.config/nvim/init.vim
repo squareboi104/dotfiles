@@ -2,18 +2,18 @@
 
 " --Plugins--
 
-"set nocompatible              " be iMproved, required
-"filetype off                  " required
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 " set rtp+=~/.vim/bundle/Vundle.vim
-"set rtp+=~/.config/nvim/bundle/Vundle.vim
-"call vundle#begin()
+set rtp+=~/.config/nvim/bundle/Vundle.vim
+call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-"Plugin 'VundleVim/Vundle.vim' "https://github.com/VundleVim/Vundle.vim
+Plugin 'VundleVim/Vundle.vim' "https://github.com/VundleVim/Vundle.vim
 
 " Plugins go down here
 " Keep Plugin commands between vundle#begin/end.
@@ -21,12 +21,12 @@
 "Plugin 'mattn/emmet-vim' "https://github.com/mattn/emmet-vim
 "Plugin 'vim-airline/vim-airline' "https://github.com/vim-airline/vim-airline
 "Plugin 'vim-airline/vim-airline-themes' "https://github.com/vim-airline/vim-airline-themes
-"Plugin 'itchyny/lightline.vim' "https://github.com/itchyny/lightline.vim
+Plugin 'itchyny/lightline.vim' "https://github.com/itchyny/lightline.vim
 "Plugin 'joshdick/onedark.vim' "https://github.com/joshdick/onedark.vim
 
 " All of your Plugins must be added before the following line
-"call vundle#end()            " required
-"filetype plugin indent on    " required
+call vundle#end()            " required
+filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -88,7 +88,7 @@ set showcmd
 set ruler
 
 " Needed for lightline plugin
-"set laststatus=2
+set laststatus=2
 
 " Dont show -- INSERT --
 set noshowmode
@@ -116,8 +116,8 @@ inoremap ] []
 " Background dark/light
 " set background=light
 
-" Colorscheme. Can be -> default, blue, darkblue, delek, desert, elford, evening, industry, koehler, morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner
-colorscheme peachpuff
+" Colorscheme. Can be -> default, blue, darkblue, delek, desert, elflord, evening, industry, koehler, morning, murphy, pablo, peachpuff, ron, shine, slate, torte, zellner
+colorscheme pablo
 
 
 " --Remaps--
@@ -139,7 +139,7 @@ map <leader>p :w <CR> :!clear ; python3 % <CR>
 map <leader>b :w <CR> :!clear ; ./% <CR>
 
 "Tab and window management
-nmap <C-s>n :tabnew 
+nmap <C-s>n :tabnew<Enter>
 nmap <C-s>e :tabedit 
 nmap <C-s>l :tabn<Enter>
 nmap <C-s>h :tabp<Enter>
@@ -161,13 +161,13 @@ nmap <leader>t :below split +term <Enter> :resize 17 <Enter> i clear <Enter>
 "let g:manu_emmet_leader_key=',' "Instead of C+y+, is now ,+,
 
 "Vim airline
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tabline#formatter = 'unique_tail'
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#formatter = 'unique_tail'
 "let g:airline_theme='base16_google'
 " let g:airline_theme='onedark'
 "let g:airline_statusline_ontop=1
 
 " Lightline (:h g:lightline.colorscheme)
-"let g:lightline = {
-"      \ 'colorscheme': 'onedark',
-"      \ }
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }

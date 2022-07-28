@@ -8,7 +8,7 @@ slstatus &
 #variety &
 #$HOME/.wallpapers/zt_meteor/wallpp
 #xwallpaper --focus ~/.wallpapers/nightcity_neon.png
-feh --bg-scale ~/.wallpapers/samurais/samurai_crow.jpg
+feh --bg-scale ~/.wallpapers/fuji/fuji_black-n-white.png
 
 # Hide mouse after 3 seconds of inactivity
 unclutter -idle 3 &
