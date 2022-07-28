@@ -1,7 +1,7 @@
 configuration {
 
     // Mode
-    modi: "drun";
+    modi: "run";
 
     // Font
     font: "inconsolata nerd font 12";
@@ -19,3 +19,8 @@ configuration {
     // History
     disable-history: true;
 }
+
+//@theme "/usr/share/rofi/themes/fancy.rasi"
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+//@theme "/usr/share/rofi/themes/Paper.rasi"
+@theme "/usr/share/rofi/themes/paper-float.rasi"
