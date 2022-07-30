@@ -7,7 +7,7 @@ To setup the dotfiles [GNU Stow](https://www.gnu.org/software/stow) is used.
 ```bash
 # Get my dotfiles.
 cd ~
-git clone https://gitlab.com/squareboi104/dotfiles.git ~/.dotfiles
+git clone https://github.com/squareboi104/dotfiles.git ~/.dotfiles
 cd .dotfiles
 
 # Symlink all of them.
