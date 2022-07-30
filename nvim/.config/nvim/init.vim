@@ -99,17 +99,17 @@ nmap <leader>n :tabe $HOME/.config/nvim/init.vim <CR>
 
 " --Auto complete (), {}, [], etc--
 
-inoremap ( ()<Left>
-inoremap { {}<Left>
-inoremap [ []<Left>
-inoremap ' ''<Left>
-inoremap " ""<Left>
-inoremap ` ``<Left>
-inoremap < <><Left>
-
-inoremap ) ()
-inoremap } {}
-inoremap ] []
+"inoremap ( ()<Left>
+"inoremap { {}<Left>
+"inoremap [ []<Left>
+"inoremap ' ''<Left>
+"inoremap " ""<Left>
+"inoremap ` ``<Left>
+"inoremap < <><Left>
+"
+"inoremap ) ()
+"inoremap } {}
+"inoremap ] []
 
 
 " --Look--

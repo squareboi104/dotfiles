@@ -96,6 +96,7 @@ alias pdf="zathura"
 alias weather="curl wttr.in"
 alias scrcpyr="scrcpy --lock-video-orientation 1"
 alias vlol="sudo sysctl -w abi.vsyscall32=0"
+alias scrnshot="import -window root -pause 3"
 
 # System
 alias pls="sudo"
