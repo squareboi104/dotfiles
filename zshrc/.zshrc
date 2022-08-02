@@ -19,7 +19,7 @@ pfetch
 # Exports
 export PATH=/home/manu/.local/bin:/usr/bin:/usr/local/bin
 export EDITOR=nvim
-export TERM=urxvt
+#export TERM=urxvt
 export BROWSER=firefox
 
 # History
