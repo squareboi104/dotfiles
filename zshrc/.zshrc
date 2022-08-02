@@ -19,8 +19,8 @@ pfetch
 # Exports
 export PATH=/home/manu/.local/bin:/usr/bin:/usr/local/bin
 export EDITOR=nvim
-#export TERM=alacritty
-#export BROWSER=librewolf
+export TERM=urxvt
+export BROWSER=firefox
 
 # History
 HISTSIZE=1000
