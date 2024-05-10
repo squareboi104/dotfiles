@@ -41,9 +41,8 @@
 !*.color7:       #c5c8c6
 !*.color15:      #ffffff
 
-!! Colorscheme SAMURAI eighties.dark
 
-!! Colorscheme NORD - FUJI/SAMURAI
+!! Colorscheme NORD - FUJI
 ! special
 *.foreground:   #d8dee9
 *.background:   #2e3440
