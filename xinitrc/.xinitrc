@@ -1,13 +1,9 @@
-# Start Xorg with startx (use only for my dwm build)
+# Start Xorg with startx (dwm build)
 
 # Start the status bar
 slstatus &
 
 # Wallpaper
-#nitrogen --restore &
-#variety &
-#$HOME/.wallpapers/zt_meteor/wallpp
-#xwallpaper --focus ~/.wallpapers/nightcity_neon.png
 feh --bg-scale ~/.wallpapers/fuji/fuji_blue.png
 
 # Hide mouse after 3 seconds of inactivity
@@ -20,15 +16,10 @@ xrdb ~/.Xresources
 dunst &
 
 # Autostart progs
-#discord &
 #telegram-desktop &
 
 # Transparency/Compositor
 #xcompmgr &
 
-# Rofi
-#export LC_ALL="C" &
-
 # Start Xorg server
 exec dwm
-#exec qtile

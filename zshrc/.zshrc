@@ -9,7 +9,7 @@
 bindkey -v
 
 #Start pfetch
-pfetch
+#pfetch
 
 # Bash insulter
 #if [ -f /etc/bash.command-not-found ]; then # https://gitlab.com/dwt1/bash-insulter
@@ -18,7 +18,7 @@ pfetch
 
 # Exports
 export PATH=/home/manu/.local/bin:/usr/bin:/usr/local/bin
-export EDITOR=nvim
+export EDITOR=vim
 #export TERM=urxvt
 export BROWSER=firefox
 
@@ -90,12 +90,12 @@ alias ":q"="exit"
 alias ':Q'=':q'
 alias yt-dl="youtube-dl"
 alias svim='sudo vim'
-alias vim="nvim"
+alias vim="vim"
 alias play="mpv --fs"
 alias pdf="zathura"
 alias weather="curl wttr.in"
 alias scrcpyr="scrcpy --lock-video-orientation 1"
-alias vlol="sudo sysctl -w abi.vsyscall32=0"
+#alias vlol="sudo sysctl -w abi.vsyscall32=0"
 alias scrnshot="import -window root -pause 3"
 
 # System
